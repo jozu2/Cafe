@@ -1,0 +1,250 @@
+@media screen and (min-width: 51px) {
+  .trymetitle {
+    margin: 4em 0 1.5em 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+  .tryme {
+    margin: auto 17%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      object-position: top center;
+    }
+    p {
+      font-size: 0.8em;
+    }
+    button {
+      width: 90%;
+      padding: 3px 0;
+    }
+  }
+
+  .banner {
+    max-width: 2400px;
+    position: relative;
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      object-position: top center;
+    }
+    h1 {
+      position: absolute;
+      left: 36%;
+      bottom: 37%;
+      color: white;
+      font-size: 2.5em;
+    }
+  }
+
+  .cakeContent {
+    margin: 2.8em auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto, auto);
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 100%;
+        padding: 3%;
+        height: auto;
+      }
+    }
+    p {
+      font-size: 0.8em;
+    }
+    button {
+      width: 90%;
+      padding: 3px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .trymetitle {
+    margin: 4em 0 1.5em 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+  .tryme {
+    margin: auto 15%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: top center;
+    }
+    p {
+      font-size: 0.8em;
+    }
+
+    button {
+      width: 90%;
+      padding: 3px 0;
+    }
+  }
+
+  .banner {
+    h1 {
+      left: 40%;
+      bottom: 37%;
+      font-size: 3em;
+    }
+    img {
+      height: 160px;
+      object-position: top center;
+    }
+  }
+
+  .cakeContent {
+    grid-template-rows: repeat(4, auto);
+    margin-top: 3em;
+    div {
+      img {
+        width: 100%;
+        height: 30px;
+        height: auto;
+      }
+    }
+  }
+}
+@media screen and (min-width: 650px) {
+  .trymetitle {
+    margin: 4em 0 1.5em 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+  }
+  .tryme {
+    margin: auto 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 15px;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      object-position: top center;
+    }
+    p {
+      font-size: 0.8em;
+    }
+    button {
+      width: 90%;
+      padding: 3px 0;
+    }
+  }
+
+  .banner {
+    h1 {
+      left: 44%;
+      bottom: 37%;
+      font-size: 3em;
+    }
+    img {
+      height: 200px;
+      object-position: top center;
+    }
+  }
+  .cakeContent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .trymetitle {
+    margin: 5em 0 1.8em 0;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+  }
+  .tryme {
+    margin: auto 16%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 15px;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: top center;
+    }
+    p {
+      font-size: 0.9em;
+    }
+
+    button {
+      font-size: 1.1em;
+      width: 85%;
+      margin-top: 2px;
+      padding: 9px 0;
+    }
+  }
+  .banner {
+    h1 {
+      left: 45%;
+      bottom: 37%;
+      font-size: 5em;
+    }
+    img {
+      width: 100%;
+      height: 300px;
+      object-position: top top;
+    }
+  }
+  .cakeContent {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5em 10%;
+
+    button {
+      font-size: 1.1em;
+      width: 85%;
+      margin-top: 2px;
+      padding: 9px 0;
+    }
+  }
+}

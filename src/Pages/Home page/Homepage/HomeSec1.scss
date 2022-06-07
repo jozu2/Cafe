@@ -1,0 +1,100 @@
+@media screen and (min-width: 1px) {
+  .sec1 img {
+    background-color: palevioletred;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .sec1 {
+    margin-top: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 190px);
+    grid-gap: 2px;
+    margin: 0 5px;
+
+    div:hover img {
+      cursor: pointer;
+      filter: brightness(60%);
+      transition: all 1s ease;
+    }
+    .box3 img {
+      object-position: center;
+    }
+    .box1 {
+      grid-column: span 2;
+    }
+    .box6 {
+      grid-column: span 2;
+    }
+
+    div {
+      position: relative;
+    }
+
+    div p {
+      position: absolute;
+      color: white;
+      bottom: 8px;
+      left: 15px;
+      font-size: 1.3em;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .sec1 img {
+    background-color: palevioletred;
+    width: 100%;
+    height: 220px;
+
+    object-position: top;
+  }
+  .sec1 {
+    margin-top: 0.8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 220px);
+    grid-gap: 2px;
+    margin: 0 5px;
+
+    .box6 img {
+      object-position: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .sec1 img {
+    background-color: palevioletred;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .sec1 {
+    margin-top: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    grid-gap: 4px;
+    margin: 0 6px;
+
+    .box1 {
+      grid-column: span 2;
+    }
+    .box6 {
+      grid-column: span 2;
+    }
+    div p {
+      position: absolute;
+      color: white;
+      bottom: 13px;
+      left: 18px;
+      font-size: 1.8em;
+    }
+  }
+}

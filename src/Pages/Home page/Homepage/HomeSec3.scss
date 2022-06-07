@@ -1,0 +1,180 @@
+@media screen and (min-width: 200px) {
+  .container3 {
+    margin-top: 5em;
+    padding: 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+      padding: 10px 0;
+      text-decoration: underline 5px pink;
+    }
+    p {
+      padding: 0 10px 8px 10px;
+      text-indent: 40px;
+    }
+  }
+
+  .container3 .xbox1 img,
+  .container3 .xbox3 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .container3 .xbox1,
+  .container3 .xbox3 {
+    position: relative;
+    button {
+      display: none;
+    }
+  }
+
+  .xbox1:hover,
+  .xbox3:hover {
+    img {
+      filter: blur(2px);
+      transition: all 1s ease;
+    }
+    button {
+      display: block;
+      position: absolute;
+      padding: 6px 20px;
+      font-size: 1em;
+      bottom: 40%;
+      left: 33%;
+      border-radius: 15px;
+      background-color: pink;
+      border: 2px solid white;
+      color: white;
+    }
+    button:hover {
+      background-color: black;
+    }
+  }
+
+  .xbox2,
+  .xbox4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 610px) {
+  .container3 .xbox1 img,
+  .container3 .xbox3 img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .container3 {
+    padding: 5em 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 340px);
+
+    .xbox1 {
+      img {
+        object-position: top;
+      }
+    }
+    .xbox2 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    .xbox2,
+    .xbox4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+      flex-direction: column;
+    }
+
+    h3 {
+      font-size: 1.3em;
+      padding: 10px 0;
+    }
+    p {
+      font-size: 1.15em;
+      padding: 0 10px 8px 10px;
+      text-indent: 50px;
+    }
+  }
+
+  .xbox1:hover,
+  .xbox3:hover {
+    img {
+      filter: blur(2px);
+    }
+    button {
+      display: block;
+      position: absolute;
+      padding: 10px 30px;
+      font-size: 1.1em;
+      bottom: 40%;
+      left: 34%;
+      border-radius: 15px;
+      background-color: pink;
+      border: 2px solid white;
+      color: white;
+    }
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .container3 .xbox1 img,
+  .container3 .xbox3 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .container3 {
+    grid-template-rows: repeat(2, 500px);
+
+    .xbox1 {
+      img {
+        object-position: top;
+      }
+    }
+    h3 {
+      font-size: 1.7em;
+      padding: 10px 0;
+    }
+    p {
+      font-size: 1.5em;
+      padding: 0 10px 8px 10px;
+      text-indent: 50px;
+    }
+  }
+  .xbox1:hover,
+  .xbox3:hover {
+    img {
+      filter: blur(2px);
+    }
+    button {
+      display: block;
+      position: absolute;
+      padding: 10px 30px;
+      font-size: 1.1em;
+      bottom: 40%;
+      left: 40%;
+      border-radius: 15px;
+      background-color: pink;
+      border: 2px solid white;
+      color: white;
+    }
+  }
+}

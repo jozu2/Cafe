@@ -1,0 +1,128 @@
+@media screen and (min-width: 51px) {
+  .footer1 {
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.568);
+    height: 300px;
+    div {
+      padding: 0 5%;
+    }
+    .fdiv1 {
+      p {
+        font-size: 1.2em;
+        margin-bottom: 1.3em;
+      }
+    }
+    .fdiv2 {
+      p {
+        font-size: 0.7em;
+      }
+      input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 8px 0;
+      }
+      button {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+        background-color: black;
+        color: white;
+        font-size: 1.1em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 610px) {
+  .footer1 {
+    margin-top: 8em;
+
+    div {
+      padding: 0 14%;
+    }
+    .fdiv1 {
+      p {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .footer1 {
+    margin-top: 8em;
+    padding: 2em 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.568);
+    height: 270px;
+
+    div {
+      padding: 0 5%;
+    }
+    .fdiv1 {
+      p {
+        font-size: 1.7em;
+      }
+    }
+    .fdiv2 {
+      p {
+        padding-top: 5px;
+        text-align: start;
+        font-size: 0.7em;
+        width: 70%;
+      }
+      input {
+        display: block;
+        width: 70%;
+        margin: 8px 0;
+        padding: 15px 0;
+      }
+      button {
+        display: block;
+        width: 70%;
+        padding: 12px 0;
+        background-color: black;
+        color: white;
+        font-size: 1.1em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 51px) {
+  .footer2 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    align-items: center;
+    text-align: center;
+    div {
+      list-style: none;
+    }
+
+    .foot1,
+    .foot2,
+    .foot3,
+    .footContact {
+      h4 {
+        color: white;
+      }
+      li {
+        color: white;
+      }
+      a {
+        color: white;
+      }
+    }
+  }
+}
